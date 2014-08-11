@@ -1,0 +1,63 @@
+getwd()
+getwd()
+read.table(hw1_data.csv)
+getwd()
+source(hw1_data.csv)
+load(hw1_data.csv)
+read.csv(hw1_data.csv)
+getwd()
+getwd()
+read.csv("hw1_data.csv")
+two <- read.csv("hw1_data.csv", nrwos = 2)
+read.csv("hw1_data.csv")
+myData <- read.csv("hw1_data.csv")
+myData[1:2,]
+myData[152:153,]
+myData[47,]
+bad <- is.na([,c($Ozone)])
+oz <- [,c("Ozone")]
+sum(myData[,Ozone]=="NA")
+Ozone <- (,"Ozone")
+Ozone <- [,"Ozone"]
+myData[,Ozone]
+myData[,c("Ozone")]
+myData[,c(1)]
+myData[,c(1)==="NA"]
+sum(myData[,c(1)]=="NA")
+sum(is.na(myData[,c(1)]))
+mean(myData[,c(1)], na.rm=TRUE)
+subData <- myData([,c(1)]>31,[,c(4)>90])
+subData <- myData([,c(1)>31],[,c(4)]>90)
+subData <- myData([,c(1)]>31, [,c(4)]>90)
+subData <- myData[,c(1)]>31
+subData
+print(subData)
+bad <- is.na(subData)
+subData[!bad]
+subData(TRUE)
+subData <- subset(myData, Ozone>31, Temp>90)
+subData
+print(subData)
+myData
+subData <- (myData, [c(1)]>31)
+subData <- myData[c(1)]>31
+subData
+subData <- myData[myData$Ozone>31 & myData$Temp>90,]
+subData
+solar <- subData[,2]
+solar
+mean(solar)
+mean(solar, na.rm =="TRUE")
+x <- c(2)
+bad <- is.na(x)
+mean(solar, x[!bad])
+mean(solar, na.rm=T)
+q19 <- subset(myData, myData$Month=6)
+q19 <- myData[myData$Month=6,]
+q19 <- myData[myData$Month==6,]
+mean(q19[,4], na.rm=T)
+q20 = myData[myData$Month==5]
+q20 <- myData[myData$Month==5,]
+max(q20[,1])
+max(q20,[,1], na.rm=T)
+max(q20[,1], na.rm=T)
